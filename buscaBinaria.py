@@ -1,3 +1,6 @@
+teste_lista = ["Dimas", "Mariana", "Maria Luiza", "Meggie"]
+
+
 def executar_busca_binaria(lista, valor):
     minimo = 0
     maximo = len(lista) - 1
@@ -13,4 +16,7 @@ def executar_busca_binaria(lista, valor):
         else:
             return True  # Se o valor dor encontrado para aqui
 
-        return False  # Se chegar até aqui, siginifica que o valor não foi encontrado
+    return False  # Se chegar até aqui, siginifica que o valor não foi encontrado
+
+
+print(executar_busca_binaria(teste_lista, 'Dimas'))
